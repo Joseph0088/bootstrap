@@ -1,0 +1,555 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <title>Button Elite Learners Academy</title>
+        <meta  charset="UTF-8"/>
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    </head>
+    <style>
+        *{
+            box-sizing:content-box;
+        }
+        body{
+            margin:0;
+            width: 100%;
+        }
+        .m-container{
+            min-width: 80vw;
+            margin: 10vw;
+            height: fit-content;
+        }
+        .mini-container{
+            display: grid;
+            place-items: center;
+
+          background-color: whitesmoke;
+          border:1px solid black;
+          border-radius: 5px;
+          box-shadow: 2px 2px 5px;
+
+        }
+        /*New css*/
+        .container{
+            width: 100%;
+            height: fit-content;
+            padding: 2rem;
+            display: block;
+        }
+        .pad-top-btm{
+            padding:1rem 0rem 1rem 0rem ;
+        }
+        .h-24{
+             font-size: 24px;
+             font-weight: bolder;
+             text-wrap:wrap;
+             padding:0.5rem; 
+        }
+        .h-48{
+             font-size: 48px;
+             font-weight: bolder;
+             text-align: center;
+             text-wrap:wrap;
+             padding:0.5rem;
+
+       }
+        .center{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .center-abs{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .circle-btn{
+                width: 20px;
+                height: 20px;
+                font-size:16px;
+                margin:0rem 1rem 0rem 1rem;
+                border:1px solid black;
+                border-radius:100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        div a :hover{
+               background-color:bisque ; 
+               color: black;
+        }
+
+        /*Grand buttons*/
+        .grand-btn{
+               width: 80%;
+               height: 10vh;
+               margin: 1rem 10% 1rem 10% ;
+        }
+        /*End of new css */
+
+        .h-36{
+             font-size: 36px;
+             font-weight: bolder;
+             text-align: center;
+             text-wrap:wrap;
+             padding:0.5rem;
+
+       }
+        .ela-card{
+            width:20vw;
+            height:340px;
+            border:1px solid black;
+            border-radius: 5px;
+            margin:2rem;
+            box-shadow: 2px 2px 5px;
+        } 
+            .img-card{
+                width:100%;
+                height:70%;
+                border:1px solid black;
+                border-radius: 5px 5px 0px 0px;
+            }
+            .h-card{
+                font-size: 28px;
+                font-weight: bolder;
+                margin:1rem 1rem 0rem 1rem;
+                text-wrap: wrap;
+            }
+            .p-card,.p-0{
+                font-size:16px;
+                margin:0rem 1rem 0rem 1rem;
+                text-wrap: wrap;
+            }
+            .btn{
+                width:10%;
+                height:1.5rem;
+                font-size:16px;
+                margin:0rem 1rem 0rem 1rem;
+                border:1px solid black;
+                border-radius: 5px;
+            }
+            .btn-center{
+                width:80%;
+                margin: 0.5rem 10% 0.5rem 10%;
+            }
+            
+            .btn-left{
+                float:left;
+
+
+            }
+            .btn-right{
+                float:right;
+
+            }
+            .center-text{
+                text-align: center;
+            }
+            .left-text{
+                text-align: left;
+            }
+            .text-right{
+                text-align: right;
+            }
+            .bg-blue{
+                background-color: blue;
+                color: white;
+            }
+            .bg-green{
+                background-color: green;
+                color: white;
+            }
+            .bg-grey{
+                background-color: rgba(156, 151, 151, 0.514);
+            }
+            .bg-purple{
+                background-color: purple;
+                color: white;
+            }
+            .bg-red{
+                background-color: red;
+                color: white;
+            }
+
+            .bg-white{
+                background-color: white;
+            }
+
+            .bg-whitesmokey{
+                background-color:whitesmoke;
+            }
+
+
+             .link-btn {
+                position:relative;
+                text-decoration: none;
+                text-align: center;
+                padding:0.25rem ;
+                border: 1px solid black;
+                border-radius: 5px;
+
+            }
+
+@media screen and (max-width:768px) {
+                *{
+            box-sizing:content-box;
+        }
+        body{
+            margin:0;
+            width: 100%;
+        }
+        .m-container{
+            min-width: 80%;
+            margin: 5vh 10%  5vh 10%;
+            height: fit-content;
+        }
+        .mini-container{
+            display: grid;
+            place-items: center;
+
+          background-color: whitesmoke;
+          border:1px solid black;
+          border-radius: 5px;
+          box-shadow: 2px 2px 5px;
+
+        }
+        /*New css*/
+        .container{
+            width: 100%;
+            height: fit-content;
+            padding: 2rem;
+            display: block;
+        }
+        .pad-top-btm{
+            padding:1rem 0rem 1rem 0rem ;
+        }
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .h-24{
+             font-size: 24px;
+             font-weight: bolder;
+             text-wrap:wrap;
+             padding:0.5rem; 
+        }
+        .h-48{
+             font-size: 48px;
+             font-weight: bolder;
+             text-align: center;
+             text-wrap:wrap;
+             padding:0.5rem;
+
+       }
+        .center{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .center-abs{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .circle-btn{
+                width: 20px;
+                height: 20px;
+                font-size:16px;
+                margin:0rem 1rem 0rem 1rem;
+                border:1px solid black;
+                border-radius:100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        div a :hover{
+               background-color:bisque ; 
+               color: black;
+        }
+
+        /*Grand buttons*/
+        .grand-btn{
+               width: 80%;
+               height: 10vh;
+               margin: 1rem 10% 1rem 10% ;
+               padding: 1rem;
+        }
+        /*End of new css */
+
+        .h-36{
+             font-size: 36px;
+             font-weight: bolder;
+             text-align: center;
+             text-wrap:wrap;
+             padding:0.5rem;
+
+       }
+        .ela-card{
+            width:20vw;
+            height:340px;
+            border:1px solid black;
+            border-radius: 5px;
+            margin:2rem;
+            box-shadow: 2px 2px 5px;
+        } 
+            .img-card{
+                width:100%;
+                height:70%;
+                border:1px solid black;
+                border-radius: 5px 5px 0px 0px;
+            }
+            .h-card{
+                font-size: 28px;
+                font-weight: bolder;
+                margin:1rem 1rem 0rem 1rem;
+                text-wrap: wrap;
+            }
+            .p-card,.p-0{
+                font-size:16px;
+                margin:0rem 1rem 0rem 1rem;
+                text-wrap: wrap;
+            }
+            .btn{
+                width: 30% 15%;
+                height:1.5rem;
+                font-size:16px;
+                padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+                margin:0rem 1rem 0rem 1rem;
+                border:1px solid black;
+                border-radius: 5px;
+            }
+            .btn-center{
+                width:80%;
+                margin: 0.5rem 10% 0.5rem 10%;
+            }
+            
+            .btn-left{
+                float:left;
+
+
+            }
+            .btn-right{
+                float:right;
+
+            }
+            .center-text{
+                text-align: center;
+            }
+            .left-text{
+                text-align: left;
+            }
+            .text-right{
+                text-align: right;
+            }
+            .bg-blue{
+                background-color: blue;
+                color: white;
+            }
+            .bg-green{
+                background-color: green;
+                color: white;
+            }
+            .bg-grey{
+                background-color: rgba(156, 151, 151, 0.514);
+            }
+            .bg-purple{
+                background-color: purple;
+                color: white;
+            }
+            .bg-red{
+                background-color: red;
+                color: white;
+            }
+
+            .bg-white{
+                background-color: white;
+            }
+
+            .bg-whitesmokey{
+                background-color:whitesmoke;
+            }
+
+
+             .link-btn {
+                position:relative;
+                text-decoration: none;
+                text-align: center;
+                padding:0.25rem ;
+                margin: 0.5rem auto auto 0.5rem;
+                border: 1px solid black;
+                border-radius: 5px;
+
+            }
+            
+            }
+
+            @media screen and (max-width:768px){
+                button{
+                    width: 20%;
+                }
+
+            }
+    </style>
+    <body>
+        <div class="m-container">
+        
+            <div class="mini-container">
+                <div class="container">
+                <h2 class="center-text">Buttons</h2>
+                <!--Primary Button-->
+                <!--If you want to adjust the sizes use inline style-->
+                <div for="primary" class="h-24 text-left">Primary button</div>                
+                <div class="pad-top-btm">
+                 <button onclick="window.location.href='#'" id="primary" class="btn bg-blue">Click</button>
+                </div>
+                    
+                 <!--Center Button-->
+                 <div class="h-24 text-left">Center Button</div>
+                 <div class="pad-top-btm">
+                 <button onclick="window.location.href='#'" class="btn btn-center">Click</button>
+                 </div>
+
+                 <!--Left Button-->
+                 <div class="h-24 text-left">Left Button</div>
+                 <div class="pad-top-btm">
+                 <button onclick="window.location.href='#'" class="btn btn-left bg-red">Cancel</button>
+                 </div><br><br>
+
+
+                <!--Right Button-->
+                <div for="right" class="h-24 text-left">Right Button</div>
+                <div class="pad-top-btm">
+                 <button onclick="window.location.href='#'" id="right" class="btn btn-right bg-green">Click</button>
+                 </div>
+
+            </div>
+            </div>
+
+
+           <!--Link button-->
+            <div class="mini-container" style="margin: 1rem 0rem 0rem 0rem;">
+                <div class="container">
+                    <h2 class="center-text">Link Buttons</h2>
+                    <!--Primary Button-->
+                    <div for="primary" class="h-24 text-left">Primary button</div>                    
+                    <div class="pad-top-btm">
+                      <a href="#" id="primary" ><div class="btn bg-blue link-btn" style="width: 4rem;">Click</div></a>
+                    </div>
+                        
+                     <!--Center Button-->
+                     <div class="h-24 text-left ">Center Button</div>
+                     <div class="pad-top-btm">
+                     <a href="#" class="btn-center" ><div class=" text-center link-btn  bg-grey" style="margin: 0.5rem 0% 0.5rem 0%;">  🟢 </div></a>
+                     </div>
+    
+                     <!--Left Button-->
+                     <div class="h-24 text-left">Left Button</div>
+                     <div class="pad-top-btm">                     
+                     <a href="#" ><div class="btn btn-left bg-red link-btn" style="width: 5rem;">⚠️  Cancel</div> </a>
+                     <a href="#" ><div class="btn btn-left bg-red link-btn" style="width: 5rem;"> ✖️  Cancel</div></a>
+                     <a href="#" ><div class="btn btn-left bg-white link-btn" style="width: 5rem;"> ☒  Cancel</div></a>
+                     <a href="#"> <div  class="btn btn-left bg-grey link-btn" style="width: 5rem;">Cancel</div></a> 
+                                        
+                     </div><br><br>
+    
+    
+                    <!--Right Button-->
+                    <label for="right" class="h-24 text-left">Right Button</label>
+                    <div class="pad-top-btm">
+                     <a href="#" id="right" class="btn btn-right bg-green link-btn text-center" style="width: 4rem;" >👍</a>
+                     <a href="#" id="right" class="btn btn-right bg-green link-btn text-center" style="width: 4rem;" >Agree</a>
+                     <a href="#" id="right" class="btn btn-right bg-green link-btn text-center"style="width: 4rem;" >Continue</a>                     
+                     </div>
+    
+
+            </div>
+
+        </div>
+
+           <!--Circle button-->
+           <div class="mini-container" style="margin: 1rem 0rem 0rem 0rem;">
+            <div class="container">
+                <h2 class="center-text">Circular Buttons</h2>
+                <!--Primary Button-->
+                
+                <div class="pad-top-btm">
+                <label for="primary" class="h-24 text-left">Primary button</label>
+                 <a href="#" id="primary" ><div class="circle-btn bg-blue link-btn" style="width:2rem ; height: 2rem; border-radius: 100%;">Go</div></a>
+                </div>
+                    
+                 <!--Center Button-->
+                 <div class="h-24 text-left ">Center Button</div>     
+                 <div class="pad-top-btm">
+                 <a href="#" ><div class="btn-center text-center center link-btn  bg-grey" style="width:2rem ; height: 2rem; border-radius: 100%;"> ⚙️</div></a>
+                 </div>
+
+                 <!--Left Button-->
+                 <div class="h-24 text-left">Left Button</div>                
+                 <div class="pad-top-btm wrap">
+                 <a href="#" class="btn btn-left bg-red link-btn" style="width:2rem ; height: 2rem; border-radius: 100%;"> ⚠️ </a>
+                 <a href="#" class="btn btn-left bg-grey link-btn" style="width:2rem ; height: 2rem; border-radius: 100%;"> 🗙  </a>
+                 <a href="#" class="btn btn-left bg-white link-btn" style="width:2rem ; height: 2rem; border-radius: 100%;"> 🗙  </a>
+                 <a href="#" class="btn btn-left bg-green link-btn" style="width:2rem ; height: 2rem; border-radius: 100%;"> 👍 </a>                     
+                 </div><br><br>
+
+
+                <!--Right Button-->
+                <div for="right" class="h-24 text-left">Right Button</div>
+                
+                 <div class="pad-top-btm">
+                 <a href="#" id="right" class="btn btn-right link-btn text-center" style="width:2rem ; height: 2rem; border-radius: 100%; border: none;" ><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 120 120">
+                    <ellipse cx="60" cy="64.5" opacity=".35" rx="48" ry="48.5"></ellipse><ellipse cx="60" cy="60.5" fill="#44bf00" rx="48" ry="48.5"></ellipse><polygon points="53.303,88 26.139,60.838 33.582,53.395 53.303,73.116 86.418,40 93.861,47.443" opacity=".35"></polygon><g><polygon fill="#85ff5e" points="53.303,84 26.139,56.838 33.582,49.395 53.303,69.116 86.418,36 93.861,43.443"></polygon></g>
+                    </svg></a>
+                 <a href="#" id="right" class="btn btn-right  link-btn text-center" style="width:2rem ; height: 2rem; border-radius: 100%; border:none;" ><svg xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" width="50px" height="50px" viewBox="0 0 128 128">
+                    <path d="M 64 6 C 32 6 6 32 6 64 C 6 96 32 122 64 122 C 96 122 122 96 122 64 C 122 32 96 6 64 6 z M 64 12 C 92.7 12 116 35.3 116 64 C 116 92.7 92.7 116 64 116 C 35.3 116 12 92.7 12 64 C 12 35.3 35.3 12 64 12 z M 85.037109 48.949219 C 84.274609 48.974219 83.500391 49.300391 82.900391 49.900391 L 62 71.599609 L 51.099609 59.900391 C 49.999609 58.700391 48.100391 58.599219 46.900391 59.699219 C 45.700391 60.799219 45.599219 62.700391 46.699219 63.900391 L 59.800781 78 C 60.400781 78.6 61.1 79 62 79 C 62.8 79 63.599219 78.699609 64.199219 78.099609 L 87.199219 54 C 88.299219 52.8 88.299609 50.900781 87.099609 49.800781 C 86.549609 49.200781 85.799609 48.924219 85.037109 48.949219 z"></path>
+                </svg></a>
+                 <a href="#" id="right" class="btn btn-right  link-btn text-center" style="width:2rem ; height: 2rem; border-radius: 100%; border:none;"  ><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50">
+                    <path d="M25,2C12.319,2,2,12.319,2,25s10.319,23,23,23s23-10.319,23-23S37.681,2,25,2z M33.71,32.29c0.39,0.39,0.39,1.03,0,1.42	C33.51,33.9,33.26,34,33,34s-0.51-0.1-0.71-0.29L25,26.42l-7.29,7.29C17.51,33.9,17.26,34,17,34s-0.51-0.1-0.71-0.29	c-0.39-0.39-0.39-1.03,0-1.42L23.58,25l-7.29-7.29c-0.39-0.39-0.39-1.03,0-1.42c0.39-0.39,1.03-0.39,1.42,0L25,23.58l7.29-7.29	c0.39-0.39,1.03-0.39,1.42,0c0.39,0.39,0.39,1.03,0,1.42L26.42,25L33.71,32.29z"></path>
+                    </svg></a>                     
+                 </div>
+
+
+        </div>
+
+    </div>
+
+
+
+               <!--Grand button-->
+               <div class="mini-container" style="margin: 1rem 0rem 0rem 0rem;">
+                <div class="container">
+                    <h2 class="center-text">Grand Buttons</h2>
+                    <!--Primary Button-->
+                    
+                    <label for="primary" class="h-24 text-left">Primary button</label>
+                    <div class="pad-top-btm">
+                     <a href="#" id="primary" ><div class=" grand-btn grand-btn bg-blue link-btn h-48" style="font-size: 48px;">verify</div></a>
+                    </div>
+                        
+                     <!--Center Button-->
+                     <div class="h-24 text-left ">Center Button</div>
+                     <div class="pad-top-btm">
+                     <a href="#" ><div class="grand-btn grand-btn text-center  link-btn  bg-green" style="font-size: 48px;">  Agree </div></a>
+                     </div>
+    
+                     <!--Left Button-->
+                     <div class="h-24 text-left">Left Button</div>
+                     <div class="pad-top-btm">
+                     <a href="#" ><div class="grand-btn grand-btn text-center bg-purple link-btn"  style="font-size: 48px;"> Learn more </div></a>
+                     <a href="#"  style="text-decoration: none;"> <div class="grand-btn grand-btn text-center bg-grey link-btn" style="font-size: 48px; ">Cancel </div></a>
+                     </div><br><br>
+                     
+                     </div>
+    
+    
+            </div>
+    
+        </div>
+    </div>
+    <div class="center" style="width: 20%; height:200px; background-color: aqua; margin-top: 2rem;"></div>
+    </body>
+</html>

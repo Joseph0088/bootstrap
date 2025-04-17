@@ -1,0 +1,293 @@
+<!Doctype html-->
+<html lang='en'>
+        <head>
+              <meta charset='UTF-8'/>
+              <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+              <meta meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+              <title>headers elite leaners academy</title>
+              <style>
+                  *{
+                    box-sizing:content-box;
+                    }
+                  body{
+                    width:100%;
+                    margin:0px;
+                  }
+                  .m-container{
+                     min-width: 80vw;
+                     margin: 10vw;
+                     background-color:purple;
+                     height: fit-content;
+
+                   }
+                   .ctn{
+                    width: 100%;
+                    height: fit-content;
+                    margin: 0.5rem 0 0.5rem 0 ;
+                   }
+                   .h-btn-s{
+                     width: 90%;
+                     height: 4vh;
+                     padding:0rem 4rem 0rem 0rem;
+                   }
+                 .header-container{
+                   width: 100%;
+                   height:4vh;
+                   padding: 2rem;
+                   position: fixed;
+                   display:flex; 
+                   flex-direction:row;
+                    
+                  }
+                  .s-header{
+                   width: 100%;
+                   height:4vh;
+                   padding: 2rem;
+                   position: fixed;
+                   display:flex; 
+                   flex-direction:row;
+                   border:1px solid black;
+
+                  }
+                 .img-logo{
+                     width:10%;
+                     height:4vh;
+                     left:0%;
+                  }
+                  .search{
+                      width:80%;
+                      height:10vh;
+                      input{
+                        padding-left: 1rem;
+                        font-size: 18px;
+                        height: 60%;
+                        width: 30%;
+                      }
+                   }
+                  .drop-menu{
+                       width:10%;
+                       height:5vh;
+                       right:0%;
+                        button{
+                          border:none ;
+                          margin-top: -2rem;
+                        }
+                        .toggle{
+                          width: fit-content;
+                          height: fit-content;
+                          font-size: 65px; 
+                          color:white;
+                          padding:0 0rem 0rem 0rem;
+                          border-radius: 5px;
+                          background-color: black;
+                        }
+
+                                               
+                  }
+                  .h-btn{
+                       width:20%;
+                       height:5vh;
+                       right:0%;
+                       margin-top:-1.5rem ;
+                       button{
+                        width: 50%;
+                        height:1.5rem;
+                        font-size:16px;
+                        margin:0rem 1rem 1rem 1rem;
+                        border:1px solid black;
+                        border-radius: 5px;
+                       }
+                  }
+                  .hidden {
+                          display: none;
+                        }
+
+                /*Common*/
+            .p-card,.p-0{
+                font-size:16px;
+                margin:0rem 1rem 0rem 1rem;
+                text-wrap: wrap;
+            }
+            .btn{
+                width:10%;
+                height:1.5rem;
+                font-size:16px;
+                margin:0rem 1rem 0rem 1rem;
+                border:1px solid black;
+                border-radius: 5px;
+            }
+            .btn-center{
+                width:80%;
+                margin: 0.5rem 10% 0.5rem 10%;
+            }
+            
+            .btn-left{
+                float:left;
+
+
+            }
+            .btn-right{
+                float:right;
+
+            }
+            .center-text{
+                text-align: center;
+            }
+            .left-text{
+                text-align: left;
+            }
+            .text-right{
+                text-align: right;
+            }
+            .bg-blue{
+                background-color: blue;
+                color: white;
+            }
+            .bg-green{
+                background-color: green;
+                color: white;
+            }
+            .bg-grey{
+                background-color: rgba(156, 151, 151, 0.514);
+            }
+            .bg-purple{
+                background-color: purple;
+                color: white;
+            }
+            .bg-red{
+                background-color: red;
+                color: white;
+            }
+            .bg-black{
+                background-color: black;
+                color: white;
+            }
+
+            .bg-white{
+                background-color: white;
+            }
+
+            .bg-whitesmokey{
+                background-color:whitesmoke;
+            }
+
+
+             .link-btn {
+                position:relative;
+                text-decoration: none;
+                text-align: center;
+                padding:0.25rem ;
+                border: 1px solid black;
+                border-radius: 5px;
+
+            }
+            .separate{
+                width: 100%;
+                height: 5rem;
+                margin: 2rem 0 2rem 0  ;
+            }
+                /*common css end here */
+                                            
+              </style>
+
+
+        </head>
+        <body>
+            <h2 class="center-text">Headers</h2>
+
+
+            <!--The drop header-->
+            <div class="ctn">
+              <div class="hideable hidden ">
+                <ul>
+                     <li><a href="#">Elite Leaners Academy</a></li>
+                     <li><a href="#">placeholder</a></li>
+                     <li><a href="#">Service</a></li>
+
+                </ul>
+              </div>
+
+             <div class='header-container bg-black'>
+              <a  class='img-logo' href="#">
+                    <img src='/home/joseph/Downloads/pexels-leif-bergerson-99376750-9843280.jpg' alt='logo' width=40 height=40 />
+              </a>
+              <div class='search'>
+                   <form id='search-form'>
+                         <input class='search-box' type='search' name='search' placeholder='🔍'/>
+                   </form>
+              </div>
+              <div class='drop-menu'>   
+              <button class="toggle" type="button" > ☰  </button>
+
+              </div>
+
+             </div>
+            </div>
+
+             <div class= 'm-container'>
+
+            </div>
+            <!--The simple header black background-->
+            <div class="s-header bg-black">
+              <a  class="img-logo" href="#">
+                <img  src="/home/joseph/Downloads/pexels-leif-bergerson-99376750-9843280.jpg" alt="logo" width=40 height=40/>
+              </a>
+              <div class="h-btn-s">
+                <button class="btn btn-right ">signup</button>                
+                <button class="btn btn-right bg-blue">signin</button>
+
+              </div>
+            </div>
+
+            <div class="separate"></div>
+            <!--The simple header white background-->
+            <div class="s-header bg-white">
+              <a  class="img-logo" href="#">
+                <img  src="/home/joseph/Downloads/pexels-leif-bergerson-99376750-9843280.jpg" alt="logo" width=40 height=40/>
+              </a>
+              <div class="h-btn-s">
+                   <button class="btn btn-right ">signup</button>                
+                   <button class="btn btn-right bg-blue">signin</button>
+              </div>
+            </div>
+
+            <div class="separate"></div>
+            <!--The simple header + search -->
+            <div class="s-header bg-white">
+              <a  class="img-logo" href="#">
+                <img  src="/home/joseph/Downloads/pexels-leif-bergerson-99376750-9843280.jpg" alt="logo" width=40 height=40/>
+              </a>
+              <div class='search' style="width: 60%;">
+                <form id='search-form'>
+                      <input class='search-box' type='search' name='search' placeholder='🔍'/>
+                </form>
+              </div>              
+              <div class="h-btn">
+                  <button class="btn-right bg-blue" >signin</button>
+                  <button class="btn-right">signup</button>                
+              </div>
+            </div>
+
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                const hideables = document.querySelectorAll('.hideable');
+                const toggleButton = document.querySelector('button.toggle');
+              
+                if (toggleButton) {
+                  toggleButton.addEventListener('click', () => {
+                    hideables.forEach(el => el.classList.toggle('hidden'));
+              
+                    // Optional: Update button text depending on state
+                    const anyVisible = [...hideables].some(el => !el.classList.contains('hidden'));
+
+                  });
+                }
+              });
+
+
+
+      </script>
+
+        </body>
+
+</html>
